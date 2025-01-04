@@ -359,7 +359,7 @@ const QuestDetails: React.FC = () => {
             onClick={() => setActiveTabDetail(tab)}
             className={`pb-2 ${
               activeTabDetail === tab
-                ? "text-red-500 border-b-2 border-red-500"
+                ? "text-white border-b-2 border-red-500"
                 : "text-gray-400"
             }`}
           >
